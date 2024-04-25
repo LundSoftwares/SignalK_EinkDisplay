@@ -8,10 +8,13 @@ I ended up with en ESP32 based project, connected to a Waveshare 4,2" E-Ink Disp
 
 # Hardware
 
-**ESP32 MH-ET Live (will most likely work with most ESP32 based boards)**
+**ESP32 MH-ET Live (will most likely work with most ESP32 based boards):**
+
 https://www.aliexpress.com/item/1005002715554339.html
 
-**Waveshare 4,2" 400x300 E-Ink display module, SPI**
+
+**Waveshare 4,2" 400x300 E-Ink display module, SPI:**
+
 https://www.waveshare.com/4.2inch-e-paper-module.htm
 
 ![image](https://github.com/LundSoftwares/SignalK_EinkDisplay/assets/23386303/ee49d238-509b-420a-8c92-e8a4347c9b00)
