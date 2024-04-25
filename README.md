@@ -4,6 +4,9 @@
 The idea was to create a custom hardware setup that easily could show whatever data that doesn't need to be updated in realtime, like battery voltage, battery SOC, temperatures and similar.
 I ended up with en ESP32 based project, connected to a Waveshare 4,2" E-Ink Display. All data is picked up by SignalK (can ofcourse be any source of data) handled in NodeRed and sent via MQTT. All necessary data goes from NodeRed, even column width, row height, refresh rate and a possibility to clear the screen. Two hardware switces was also installed, one for switching between Page 1 and Page 2, the second one puts the ESP32 in DeepSleep to save power.
 Pins used for both Display and switches is found in e-paper_esp32_mqtt.ino file.
+I have a Sealine, so therefor the code is prepared with a Sealine logo, replace the image.h file and the line of code calling the image if you want yor own logo.
+
+--------------------------
 
 ![image](https://github.com/LundSoftwares/SignalK_EinkDisplay/assets/23386303/101895a5-18b2-4874-a87b-b9e1cdfe5509)
 
